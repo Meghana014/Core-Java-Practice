@@ -1,5 +1,6 @@
+package datatypes;
 
-public class Hello {
+public class Primitivedatatypes {
 	public static void main(String[] args) {
 		int a=1;
 		System.out.println(a);
@@ -9,6 +10,10 @@ public class Hello {
 		System.out.println(d);
 		long l= 245771235L;
 		System.out.println(l);
+		float f= 1.123f;
+		System.out.println(f);
+		
+		
 	}
 
 }
