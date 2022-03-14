@@ -36,6 +36,14 @@ public class Datatype_to_wrapper  {
              System.out.println(bl2);
              Boolean bl3=new Boolean(bl2);
              System.out.println(bl3);
+             
+             //another method to convert into objects without using valueOf().it is advanced form
+             int c=10;
+             System.out.println(c);
+             Integer r=c;
+             System.out.println(r);
+             
+             
             
             
 	

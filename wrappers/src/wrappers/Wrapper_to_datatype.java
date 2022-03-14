@@ -23,6 +23,14 @@ public class Wrapper_to_datatype {
 	      System.out.println(d);
 	      double d1=d.doubleValue();
 	      System.out.println(d1);
+	      
+	      //
+	     // converting object to primitive without using typeValue.latest usage
+	      Integer b=new Integer(23);
+	      System.out.println(b);
+	      int c=b;
+	      System.out.println(c);
+	      
 	
 	}
 
