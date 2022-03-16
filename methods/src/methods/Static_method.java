@@ -2,17 +2,16 @@ package methods;
 
 public class Static_method {
 	public static void main(String[] args) {
-		Static_method eg=new Static_method();
-		eg.createAccount();
-		eg.deleteAccount();
+		Static_method.createAccount();
+		Static_method.deleteAccount();
 		
 		
 	}
-	public void createAccount(){
+	public static void createAccount(){
 		int a=22;
 		System.out.println(a);
 		}
-	public void deleteAccount() {
+	public static void deleteAccount() {
 		System.out.println("delete account");
 	}
 
