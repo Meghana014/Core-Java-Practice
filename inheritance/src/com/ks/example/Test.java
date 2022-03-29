@@ -13,7 +13,7 @@ public class Test {
 		Triangle t=new Triangle();
 		t.values(6,12);
 	    double areaoftriangle=t.area();
-		System.out.println("area of triangle is: "+areaoftriangle);
+		System.out.println("area of triangle is: "+areaoftriangle); 
 	}
 
 }
