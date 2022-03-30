@@ -1,6 +1,6 @@
 package com.ks.abs2;
 
-public class Client extends Profileparameters {
+public  class Client extends Profileparameters {
 	public int add(int a,int b)
 	{
 		System.out.println("add method");
@@ -13,10 +13,11 @@ public class Client extends Profileparameters {
 		System.out.println("rollno is: "+rollno);
 		System.out.println("name is: "+name);
 	}
+	
 	public static void main(String[] args)
 	{
-		Client c=new Client();
 		
+		Client c=new Client();
 		int a=c.add(10, 20);
 		System.out.println("sum of a and b is:"+a);
 		c.details(101, "meghana");
